@@ -1,0 +1,19 @@
+package corejava;
+
+import java.util.ArrayList;
+
+public class Test {
+	
+	public static void main(String args[]) {
+		
+		int[] data = new int[2];
+		data[0]= 1;
+		data[1]= 2;
+		System.out.println(data[0]);
+		
+		ArrayList<Integer> data1 = new ArrayList<Integer>();
+		data1.add(1);
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package Queueinterface;
+
+import java.util.Queue;
+
+public class queue {
+
+	public static void main(String[] args) {
+		
+		Queue q = new Queue();
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package corejava;
+
+public class Test {
+	
+	public static void main(String args[]) {
+		
+		int[] data = new int[2];
+		data[0]= 1;
+		data[1]= 2;
+		System.out.println(data[0]);
+		
+		
+	}
+
+}

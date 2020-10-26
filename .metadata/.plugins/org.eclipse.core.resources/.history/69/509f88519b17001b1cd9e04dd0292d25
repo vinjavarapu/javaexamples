@@ -1,0 +1,25 @@
+package collectionpractice;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+
+public class Linkedlistclass {
+
+	public static void main(String[] args) {
+		
+		LinkedList list = new LinkedList();
+		list.add("Apple");
+		list.add("Mango");
+		list.add("Banana");
+		
+		Iterator itr= list.iterator();
+		while(itr.hasNext()) {
+			
+			System.out.println(itr.next());
+		}
+		System.out.println(list);
+		// TODO Auto-generated method stub
+
+	}
+
+}

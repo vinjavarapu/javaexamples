@@ -1,0 +1,27 @@
+package collectionpractice;
+
+import java.util.Vector;
+
+public class VectorClass {
+	
+	public static void main(String args[]) {
+		
+		Vector vec = new Vector();
+		vec.add("Mango");
+		vec.add("Apple");
+		vec.add("Banana");
+		
+		System.out.println("The vector data s " + vec);
+		
+		vec.add("Mango");
+		System.out.println("The updated vectors data is " + vec);
+		
+		int n = vec.capacity();
+		System.out.println("The capacity of the vector is " +n);
+		
+		Vector vec1 = new Vector();
+	vec1=	(Vector) vec.clone();
+	System.out.println(vec1);
+	}
+
+}

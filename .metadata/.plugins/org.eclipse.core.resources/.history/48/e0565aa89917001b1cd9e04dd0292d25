@@ -1,0 +1,21 @@
+package collectionpractice;
+
+import java.util.ArrayList;
+
+public class arraylistclass {
+	
+	public static void main(String[] args) {
+		
+		ArrayList arrlist = new ArrayList();
+		arrlist.add("Mango");
+		arrlist.add("Apple");
+		arrlist.add("Banana");
+		System.out.println(arrlist);
+		arrlist.add("Straberry");
+		System.out.println(arrlist);
+		arrlist.add("Mango");
+		System.out.println("The list of elements in arraylist are " +arrlist);
+		arrlist.clear();
+	}
+
+}

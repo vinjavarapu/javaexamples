@@ -1,0 +1,23 @@
+package Queueinterface;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+public class deque {
+	
+	public static void main(String args[]) {
+		
+		Deque d = new ArrayDeque();
+		
+		d.add("Tavu");
+		d.add("addd");
+		d.add("ravi");
+		System.out.println(d);
+		
+		d.remove();
+		System.out.println(d);
+		d.add("Ramesh");
+		System.out.println(d);
+	}
+
+}

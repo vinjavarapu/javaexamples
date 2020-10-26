@@ -1,0 +1,21 @@
+package Queueinterface;
+
+import java.util.PriorityQueue;
+
+public class priorityqueue {
+	
+	public static void main(String[] args) {
+		
+		PriorityQueue queue = new PriorityQueue();
+		queue.add("Ravi");
+		queue.add("Raj");
+		queue.add("Jayshankar");
+		queue.add("Ramesh");
+		System.out.println(queue);
+		System.out.println("Head of the queue" + queue.element());
+		System.out.println("Head of the queue" +queue.peek());
+		queue.remove();
+		queue.poll();
+	}
+
+}
